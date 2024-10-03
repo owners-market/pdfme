@@ -1,5 +1,5 @@
 {
-  "name": "@owners/pdfme-schemas",
+  "name": "@pdfme/schemas",
   "version": "0.0.0",
   "sideEffects": false,
   "author": "hand-dot",
@@ -48,13 +48,13 @@
     "prettier": "prettier --write 'src/**/*.ts'"
   },
   "dependencies": {
-    "@owners-pdfme/pdf-lib": "^1.18.3",
+    "@pdfme/pdf-lib": "^1.18.3",
     "bwip-js": "^4.1.1",
     "fast-xml-parser": "^4.3.2",
     "fontkit": "^2.0.2"
   },
   "devDependencies": {
-    "@owners/pdfme-common": "file:../common",
+    "@pdfme/common": "file:../common",
     "@types/bwip-js": "^3.2.1",
     "@types/fontkit": "^2.0.4",
     "@types/pngjs": "^6.0.2",
@@ -62,7 +62,7 @@
     "pngjs": "^7.0.0"
   },
   "peerDependencies": {
-    "@owners/pdfme-common": "latest"
+    "@pdfme/common": "latest"
   },
   "jest": {
     "resolver": "ts-jest-resolver",

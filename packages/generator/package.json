@@ -1,5 +1,5 @@
 {
-  "name": "@owners/pdfme-generator",
+  "name": "@pdfme/generator",
   "version": "0.0.0",
   "sideEffects": false,
   "author": "hand-dot",
@@ -43,24 +43,24 @@
     "prettier": "prettier --write 'src/**/*.ts'"
   },
   "dependencies": {
-    "@owners-pdfme/pdf-lib": "^1.18.3",
+    "@pdfme/pdf-lib": "^1.18.3",
     "atob": "^2.1.2",
     "fontkit": "^2.0.2"
   },
   "devDependencies": {
-    "@owners/pdfme-common": "file:../common",
-    "@owners/pdfme-schemas": "file:../schemas",
+    "@pdfme/common": "file:../common",
+    "@pdfme/schemas": "file:../schemas",
     "pdf2json": "^2.0.0"
   },
   "peerDependencies": {
-    "@owners/pdfme-common": "latest",
-    "@owners/pdfme-schemas": "latest"
+    "@pdfme/common": "latest",
+    "@pdfme/schemas": "latest"
   },
   "jest": {
     "resolver": "ts-jest-resolver",
     "globalTeardown": "<rootDir>/teardown.mjs",
     "moduleNameMapper": {
-      "^@owners/pdfme-schemas/utils$": "<rootDir>/../schemas/src/utils.ts"
+      "^@pdfme/schemas/utils$": "<rootDir>/../schemas/src/utils.ts"
     },
     "moduleFileExtensions": [
       "js",

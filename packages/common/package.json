@@ -1,5 +1,5 @@
 {
-  "name": "@owners/pdfme-common",
+  "name": "@pdfme/common",
   "version": "0.0.0",
   "sideEffects": false,
   "author": "hand-dot",
@@ -43,7 +43,7 @@
     "prettier": "prettier --write 'src/**/*.ts'"
   },
   "dependencies": {
-    "@owners-pdfme/pdf-lib": "^1.18.3",
+    "@pdfme/pdf-lib": "^1.18.3",
     "buffer": "^6.0.3",
     "zod": "^3.20.2"
   },

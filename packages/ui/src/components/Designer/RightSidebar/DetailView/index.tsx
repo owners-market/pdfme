@@ -172,10 +172,10 @@ Check this document: https://pdfme.com/docs/custom-schemas`);
           validator: validateUniqueSchemaName,
           message: i18n('validation.uniqueName'),
         }],
-        props: { autoComplete: "off" }
+        props: { 
+          autoComplete: "off",
+        }
       },
-      editable: { title: i18n('editable'), type: 'boolean', span: 8, hidden: defaultSchema?.readOnly !== undefined },
-      required: { title: i18n('required'), type: 'boolean', span: 16, hidden: "{{!formData.editable}}" },
       '-': { type: 'void', widget: 'Divider' },
       align: { title: i18n('align'), type: 'void', widget: 'AlignWidget' },
       position: {

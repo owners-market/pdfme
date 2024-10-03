@@ -285,11 +285,6 @@ const TemplateEditor = ({
           setZoomLevel={setZoomLevel}
           {...pageManipulation}
         />
-        <LeftSidebar
-          height={canvasRef.current ? canvasRef.current.clientHeight : 0}
-          scale={scale}
-          basePdf={template.basePdf}
-        />
 
         <RightSidebar
           hoveringSchemaId={hoveringSchemaId}

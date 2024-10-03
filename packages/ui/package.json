@@ -1,5 +1,5 @@
 {
-  "name": "@pdfme/ui",
+  "name": "@owners/pdfme-ui",
   "version": "0.0.0",
   "sideEffects": false,
   "author": "hand-dot",
@@ -50,8 +50,8 @@
     "react-selecto": "^1.12.0"
   },
   "devDependencies": {
-    "@pdfme/common": "file:../common",
-    "@pdfme/schemas": "file:../schemas",
+    "@owners-pdfme/common": "file:../common",
+    "@owners-pdfme/schemas": "file:../schemas",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@types/react": "^17.0.52",

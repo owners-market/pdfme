@@ -12,10 +12,10 @@
     "copy-vercel-config": "node -e \"require('fs').copyFileSync('vercel.json', 'dist/vercel.json')\""
   },
   "dependencies": {
-    "@pdfme/common": "file:../packages/common/dist",
-    "@pdfme/generator": "file:../packages/generator/dist",
-    "@pdfme/schemas": "file:../packages/schemas/dist",
-    "@pdfme/ui": "file:../packages/ui/dist",
+    "@owners/pdfme-common": "file:../packages/common/dist",
+    "@owners/pdfme-generator": "file:../packages/generator/dist",
+    "@owners/pdfme-schemas": "file:../packages/schemas/dist",
+    "@owners/pdfme-ui": "file:../packages/ui/dist",
     "esbuild": "^0.19.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
